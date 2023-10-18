@@ -34,7 +34,7 @@ const App = () => {
   // console.log(movies)
   return (
     <div className='app'>
-      <h1 className='cursor' onClick={handleTitleClick}>MovieFinder</h1>
+      <h1 className='cursor' onClick={handleTitleClick}>MovieFindr</h1>
 
       <div className='search'>
         <input placeholder='Search for movies' value={searchTerm} onChange={(e) => { setSearchTerm(e.target.value)}}  onKeyDown={(e) => {
