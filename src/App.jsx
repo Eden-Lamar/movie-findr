@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState, useEffect } from 'react'
 import MovieCard from "./MovieCard";
 import './App.css'
@@ -17,7 +16,7 @@ const App = () => {
     const res = await fetch(`${API_URL}&s=${title}`) 
     const data = await res.json();
     setMovies(data.Search);
-    console.log(data)
+    // console.log(data)
   }
 
   const handleTitleClick = () => {
